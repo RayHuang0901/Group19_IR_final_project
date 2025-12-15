@@ -1,0 +1,142 @@
+##fashionSigLIP
+=== LLM mode: baseline, length: default ===                                                                                                                                                                                
+Recall@1:    0.3967                                                                                                                                                                                                        
+Precision@1: 0.3967                                                                                                                                                                                                        
+Recall@5:    0.6467                                                                                                                                                                                                        
+Precision@5: 0.2307                                                                                                                                                                                                        
+Recall@10:    0.7200                                                                                                                                                                                                       
+Precision@10: 0.1667                                                                                                                                                                                                       
+MRR:            0.5171                                                                                                                                                                                                     
+mAP@50:         0.3499                                                                                                                                                                                                     
+                                                                                                                                                                                                                           
+=== LLM mode: detail, length: default ===                                                                                                                                                                                  
+Recall@1:    0.4267                                                                                                                                                                                                        
+Precision@1: 0.4267                                                                                                                                                                                                        
+Recall@5:    0.6500                                                                                                                                                                                                        
+Precision@5: 0.2420                                                                                                                                                                                                        
+Recall@10:    0.7867                                                                                                                                                                                                       
+Precision@10: 0.1837                                                                                                                                                                                                       
+MRR:            0.5380                                                                                                                                                                                                     
+mAP@50:         0.3671                                                                                                                                                                                                     
+                                                                                                                                                                                                                           
+=== LLM mode: detail, length: short ===                                                                                                                                                                                    
+Recall@1:    0.4200                                                                                                                                                                                                        
+Precision@1: 0.4200                                                                                                                                                                                                        
+Recall@5:    0.6933                                                                                                                                                                                                        
+Precision@5: 0.2393                                                                                                                                                                                                        
+Recall@10:    0.7767                                                                                                                                                                                                       
+Precision@10: 0.1857                                                                                                                                                                                                       
+MRR:            0.5398                                                                                                                                                                                                     
+mAP@50:         0.3707
+
+=== LLM mode: detail, length: medium ===                                                                                                                                                                                   
+Recall@1:    0.4067                                                                                                                                                                                                        
+Precision@1: 0.4067
+Recall@5:    0.6733
+Precision@5: 0.2453
+Recall@10:    0.7867
+Precision@10: 0.1833
+MRR:            0.5315
+mAP@50:         0.3705
+
+=== LLM mode: detail, length: long ===
+Recall@1:    0.4200
+Precision@1: 0.4200
+Recall@5:    0.6833
+Precision@5: 0.2420
+Recall@10:    0.7833
+Precision@10: 0.1803
+MRR:            0.5379
+mAP@50:         0.3740
+
+=== LLM mode: keywords, length: default ===
+Recall@1:    0.3000
+Precision@1: 0.3000
+Recall@5:    0.5500
+Precision@5: 0.1780
+Recall@10:    0.6600
+Precision@10: 0.1380
+MRR:            0.4172
+mAP@50:         0.2967
+
+=== LLM mode: keywords, length: short ===
+Recall@1:    0.3267
+Precision@1: 0.3267
+Recall@5:    0.5933
+Precision@5: 0.1993
+Recall@10:    0.7200
+Precision@10: 0.1537
+MRR:            0.4539
+mAP@50:         0.3280
+
+
+=== LLM mode: keywords, length: medium ===
+Recall@1:    0.3633
+Precision@1: 0.3633
+Recall@5:    0.6133
+Precision@5: 0.1993
+Recall@10:    0.7333
+Precision@10: 0.1527
+MRR:            0.4738
+mAP@50:         0.3278
+
+=== LLM mode: keywords, length: long ===
+Recall@1:    0.3400
+Precision@1: 0.3400
+Recall@5:    0.5967
+Precision@5: 0.1920
+Recall@10:    0.7067
+Precision@10: 0.1490
+MRR:            0.4530
+mAP@50:         0.3191
+
+=== LLM mode: conversational, length: default ===
+Recall@1:    0.4200
+Precision@1: 0.4200
+Recall@5:    0.6667
+Precision@5: 0.2280
+Recall@10:    0.7567
+Precision@10: 0.1650
+MRR:            0.5322
+mAP@50:         0.3696
+
+=== LLM mode: conversational, length: short ===
+Recall@1:    0.3933
+Precision@1: 0.3933
+Recall@5:    0.6567
+Precision@5: 0.2240
+Recall@10:    0.7767
+Precision@10: 0.1650
+MRR:            0.5162
+mAP@50:         0.3616
+
+=== LLM mode: conversational, length: medium ===
+Recall@1:    0.4400
+Precision@1: 0.4400
+Recall@5:    0.6900
+Precision@5: 0.2367
+Recall@10:    0.7700
+Precision@10: 0.1690
+MRR:            0.5550
+mAP@50:         0.3737
+
+=== LLM mode: conversational, length: long ===
+Recall@1:    0.4433
+Precision@1: 0.4433
+Recall@5:    0.6700
+Precision@5: 0.2347
+Recall@10:    0.7567
+Precision@10: 0.1710
+MRR:            0.5576
+mAP@50:         0.3740
+
+##CLIP
+=== LLM mode: baseline, length: default ===
+Recall@1:    0.2467
+Precision@1: 0.2467
+Recall@5:    0.5000
+Precision@5: 0.1753
+Recall@10:    0.6300
+Precision@10: 0.1410
+MRR:            0.3669
+mAP@50:         0.2402

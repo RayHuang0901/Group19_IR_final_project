@@ -1,0 +1,139 @@
+=== Baseline-1: SigLIP Fusion (alpha=0.5) ===                                                                                                                                                            03:03:06 [107/130]
+Recall@1:    0.0000                                                                                                                                                                                                        
+Precision@1: 0.0000                                                                                                                                                                                                        
+Recall@5:    0.2167                                                                                                                                                                                                        
+Precision@5: 0.0560                                                                                                                                                                                                        
+Recall@10:    0.4133                                                                                                                                                                                                       
+Precision@10: 0.0697                                                                                                                                                                                                       
+MRR:            0.1115                                                                                                                                                                                                     
+mAP@50:         0.1024                                                                                                                                                                                                     
+                                                                                                                                                                                                                           
+=== Baseline-2: BLIP caption + concat_raw (no LLM) ===                                                                                                                                                                     
+Recall@1:    0.0567                                                                                                                                                                                                        
+Precision@1: 0.0567                                                                                                                                                                                                        
+Recall@5:    0.2300                                                                                                                                                                                                        
+Precision@5: 0.0713                                                                                                                                                                                                        
+Recall@10:    0.3500                                                                                                                                                                                                       
+Precision@10: 0.0683                                                                                                                                                                                                       
+MRR:            0.1450                                                                                                                                                                                                     
+mAP@50:         0.1126                                                                                                                                                                                                     
+                                                                                                                                                                                                                           
+=== Ours: BLIP + LLM (mode=detail, length=default) ===                                                                                                                                                                     
+Recall@1:    0.1600                                                                                                                                                                                                        
+Precision@1: 0.1600                                                                                                                                                                                                        
+Recall@5:    0.4033                                                                                                                                                                                                        
+Precision@5: 0.1513                                                                                                                                                                                                        
+Recall@10:    0.5100                                                                                                                                                                                                       
+Precision@10: 0.1317                                                                                                                                                                                                       
+MRR:            0.2745                                                                                                                                                                                                     
+mAP@50:         0.1970                                                                                                                                                                                                     
+                                                                                                                                                                                                                           
+=== Ours: BLIP + LLM (mode=detail, length=short) ===                                                                                                                                                                       
+Recall@1:    0.1633                                                                                                                                                                                                        
+Precision@1: 0.1633                                                                                                                                                                                                        
+Recall@5:    0.4067
+Precision@5: 0.1493
+Recall@10:    0.5133
+Precision@10: 0.1310
+MRR:            0.2752
+mAP@50:         0.1972
+
+=== Ours: BLIP + LLM (mode=detail, length=medium) ===
+Recall@1:    0.1467
+Precision@1: 0.1467
+Recall@5:    0.3667
+Precision@5: 0.1267
+Recall@10:    0.4833
+Precision@10: 0.1123
+MRR:            0.2510
+mAP@50:         0.1701
+
+=== Ours: BLIP + LLM (mode=detail, length=long) ===
+Recall@1:    0.1533
+Precision@1: 0.1533
+Recall@5:    0.3833
+Precision@5: 0.1453
+Recall@10:    0.5033
+Precision@10: 0.1243
+MRR:            0.2655
+mAP@50:         0.1861
+
+=== Ours: BLIP + LLM (mode=keywords, length=default) ===
+Recall@1:    0.1567
+Precision@1: 0.1567
+Recall@5:    0.3767
+Precision@5: 0.1433
+Recall@10:    0.4833
+Precision@10: 0.1213
+MRR:            0.2592
+mAP@50:         0.1877
+
+=== Ours: BLIP + LLM (mode=keywords, length=short) === 
+Recall@1:    0.1433
+Precision@1: 0.1433
+Recall@5:    0.3433
+Precision@5: 0.1247
+Recall@10:    0.4333
+Precision@10: 0.1090
+MRR:            0.2418
+mAP@50:         0.1707
+
+=== Ours: BLIP + LLM (mode=keywords, length=medium) ===
+Recall@1:    0.1400
+Precision@1: 0.1400
+Recall@5:    0.3300
+Precision@5: 0.1213
+Recall@10:    0.4367
+Precision@10: 0.1067
+MRR:            0.2309
+mAP@50:         0.1622
+
+=== Ours: BLIP + LLM (mode=keywords, length=long) ===
+Recall@1:    0.1433
+Precision@1: 0.1433
+Recall@5:    0.3500
+Precision@5: 0.1320
+Recall@10:    0.4600
+Precision@10: 0.1167
+MRR:            0.2409
+mAP@50:         0.1768
+
+=== Ours: BLIP + LLM (mode=conversational, length=default) ===
+Recall@1:    0.1533
+Precision@1: 0.1533
+Recall@5:    0.3367
+Precision@5: 0.1287
+Recall@10:    0.4667
+Precision@10: 0.1183
+MRR:            0.2510
+mAP@50:         0.1760
+
+=== Ours: BLIP + LLM (mode=conversational, length=short) ===
+Recall@1:    0.1500
+Precision@1: 0.1500
+Recall@5:    0.3467
+Precision@5: 0.1313
+Recall@10:    0.4567
+Precision@10: 0.1157
+MRR:            0.2497
+mAP@50:         0.1758
+
+=== Ours: BLIP + LLM (mode=conversational, length=medium) ===
+Recall@1:    0.1133
+Precision@1: 0.1133
+Recall@5:    0.3533
+Precision@5: 0.1320
+Recall@10:    0.4800
+Precision@10: 0.1213
+MRR:            0.2338
+mAP@50:         0.1700
+
+=== Ours: BLIP + LLM (mode=conversational, length=long) ===
+Recall@1:    0.1400
+Precision@1: 0.1400
+Recall@5:    0.3367
+Precision@5: 0.1233
+Recall@10:    0.4900
+Precision@10: 0.1153
+MRR:            0.2479
+mAP@50:         0.1720
